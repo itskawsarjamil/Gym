@@ -1,0 +1,68 @@
+* {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4em;
+    padding: 0 1em;
+}
+
+.nav-title {
+    color: white;
+    font-size: 3.5em;
+    margin: 0;
+    /* padding-right: 0.4em; */
+    font-style: italic;
+    letter-spacing: 4px;
+    font-weight: bold;
+    border-right: 0.1em solid #FF8D8D;
+    animation: left-to-right 4s steps(14, end) 1s , borderColor 1s step-end infinite;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.nav-title h1 {
+    margin: 0;
+}
+
+@keyframes left-to-right {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes borderColor {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #FF8D8D;
+    }
+}
+
+.nav-menu {
+    display: flex;
+    margin: 0 10em;
+}
+
+.nav-menu li {
+    color: white;
+    font-size: larger;
+    list-style: none;
+    padding: 1em;
+}
+
+.nav-menu li:hover {
+    background-color: red;
+    border-radius: 20px;
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+}
