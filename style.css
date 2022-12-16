@@ -1,7 +1,8 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -86,7 +87,8 @@ nav {
 .header h1 {
     font-size: 4.5em;
 }
-.header h3{
+
+.header h3 {
     font-size: 1.8em;
 }
 
@@ -112,18 +114,20 @@ nav {
     padding: 2em;
 }
 
-.body h1{
+.body h1 {
     font-size: 4em;
     text-align: center;
     margin: 0.5em 0;
 }
-.packages{
+
+.packages {
     display: flex;
     /* padding-top: 1em; */
     justify-content: space-evenly;
     /* margin-bottom: 3em; */
 }
-.package-description{
+
+.package-description {
     border: 1px solid black;
     width: 20%;
     padding: 2em;
@@ -134,75 +138,132 @@ nav {
     text-align: center;
     transition: margin-top 1s;
 }
-.package-description p{
+
+.package-description p {
     font-size: normal;
 }
-.package-description img{
+
+.package-description img {
     width: 50%;
 }
-.package-description:hover{
+
+.package-description:hover {
     margin-top: -2.5em;
-    border:1px solid red;
+    border: 1px solid red;
     transition: margin-top 1s;
 }
 
-.package-description:hover p{
+.package-description:hover p {
     font-size: large;
 }
 
 
 /* about section start */
 
-.about{
+.about {
     background-color: black;
     color: white;
-    padding:0 3em;
+    padding: 0 3em;
     padding-top: 2em;
     /* padding-left: 3em;
     padding-right: 3em; */
 }
-.about>h1{
+
+.about>h1 {
     font-size: 4em;
     font-weight: bold;
 }
-.aboutdetails{
+
+.aboutdetails {
     display: flex;
     justify-content: space-between;
     padding: 0 2em;
 
 }
 
-.imgdiv{
+.imgdiv {
     width: 50%;
     margin: 0 3em;
 }
 
-.aboutimg{
+.aboutimg {
     display: flex;
-    
+
 }
-.aboutimg img{
+
+.aboutimg img {
     width: 40%;
     margin: 1em;
     transform: skewY(-15deg);
 }
 
-.aboutinfo{
+.aboutinfo {
     width: 50%;
-    margin: 0 3em ;
+    margin: 0 3em;
 }
 
-.aboutinfo ul{
+.aboutinfo ul {
     margin: 1em;
 }
-.aboutinfo ul li{
+
+.aboutinfo ul li {
     margin: 0.4em;
 }
-.aboutinfo button{
+
+.aboutinfo button {
     background-color: red;
     padding: 1em 2em;
     color: white;
     border-radius: 20px;
     font-size: large;
     margin-top: 2em;
+}
+
+/*workout section start*/
+.workout-inquiry {
+    background-image: url(./images/shape/Group_33094_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    margin: 2em auto;
+    color: white;
+    display: flex;
+    border-radius: 20px;
+    padding: 3em;
+    justify-content: space-around;
+}
+.workout-inquiry h1{
+    font-size: 1.5em;
+}
+.workout-inquiry button{
+    font-size: 18px;
+    padding: 0 22px;
+}
+
+
+/* service start */
+
+.services{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.service , .service2{
+    width: 350px;
+    border: 1px solid violet;
+    text-align: center;
+    padding: 0;
+    box-shadow: 8px 8px 16px rgb(17 16 16);
+    position: relative;
+}
+.service img,.service2 img{
+    width: 100%;
+    border-radius: 5px;
+}
+.service2 sup{
+    position: absolute;
+    top: -30px;
+    left: 85%;
+    width: 70px;
 }
