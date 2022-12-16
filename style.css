@@ -252,7 +252,7 @@ nav {
 .service , .service2{
     width: 350px;
     border: 1px solid violet;
-    text-align: center;
+    /* text-align: center; */
     padding: 0;
     box-shadow: 8px 8px 16px rgb(17 16 16);
     position: relative;
@@ -266,4 +266,24 @@ nav {
     top: -30px;
     left: 85%;
     width: 70px;
+}
+.serviceinfo{
+    padding: 2em;
+}
+
+/* footer start */
+
+.footer-container{
+    padding: 8em;
+    text-align: center;
+}
+
+.social{
+    justify-content: center;
+    display: flex;
+    font-size: 2em;
+    margin: 1.5em;
+}
+.social h5{
+    margin:0 2em;
 }
