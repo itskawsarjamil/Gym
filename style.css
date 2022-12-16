@@ -13,12 +13,14 @@ nav {
     color: white;
     font-size: 3.5em;
     margin: 0;
-    /* padding-right: 0.4em; */
+    /* padding-left: 0.4em; */
+    /* margin-left: 100px; */
+    margin-right: 0.5em;
     font-style: italic;
     letter-spacing: 4px;
     font-weight: bold;
     border-right: 0.1em solid #FF8D8D;
-    animation: left-to-right 4s steps(14, end) 1s , borderColor 1s step-end infinite;
+    animation: left-to-right 3s steps(14, end) 1s, borderColor 1s step-end infinite;
     overflow: hidden;
     white-space: nowrap;
 }
@@ -65,4 +67,48 @@ nav {
     background-color: red;
     border-radius: 20px;
     cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+}
+
+/* header start */
+
+.header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.header h4 {
+    color: red;
+    font-size: 1.5em;
+}
+
+.header h1 {
+    font-size: 4.5em;
+}
+.header h3{
+    font-size: 1.8em;
+}
+
+.header button {
+    background-color: red;
+    padding: 1em 2em;
+    border-radius: 20px;
+    font-size: large;
+    color: white;
+}
+
+.headerinfo {
+    width: 60%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10em;
+}
+
+.headerimg {
+    width: 40%;
+    padding: 2em;
 }
