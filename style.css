@@ -1,20 +1,18 @@
-* {
-    background-color: black;
+*{
+    padding: 0;
+    margin: 0;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 4em;
     padding: 0 1em;
+    background-color: black;
 }
 
 .nav-title {
     color: white;
     font-size: 3.5em;
     margin: 0;
-    /* padding-left: 0.4em; */
-    /* margin-left: 100px; */
     margin-right: 0.5em;
     font-style: italic;
     letter-spacing: 4px;
@@ -77,6 +75,7 @@ nav {
     display: flex;
     justify-content: space-between;
     color: white;
+    background-color: black;
 }
 
 .header h4 {
@@ -111,4 +110,99 @@ nav {
 .headerimg {
     width: 40%;
     padding: 2em;
+}
+
+.body h1{
+    font-size: 4em;
+    text-align: center;
+    margin: 0.5em 0;
+}
+.packages{
+    display: flex;
+    /* padding-top: 1em; */
+    justify-content: space-evenly;
+    /* margin-bottom: 3em; */
+}
+.package-description{
+    border: 1px solid black;
+    width: 20%;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 5px 9px 8px 1px gray;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    transition: margin-top 1s;
+}
+.package-description p{
+    font-size: normal;
+}
+.package-description img{
+    width: 50%;
+}
+.package-description:hover{
+    margin-top: -2.5em;
+    border:1px solid red;
+    transition: margin-top 1s;
+}
+
+.package-description:hover p{
+    font-size: large;
+}
+
+
+/* about section start */
+
+.about{
+    background-color: black;
+    color: white;
+    padding:0 3em;
+    padding-top: 2em;
+    /* padding-left: 3em;
+    padding-right: 3em; */
+}
+.about>h1{
+    font-size: 4em;
+    font-weight: bold;
+}
+.aboutdetails{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+
+}
+
+.imgdiv{
+    width: 50%;
+    margin: 0 3em;
+}
+
+.aboutimg{
+    display: flex;
+    
+}
+.aboutimg img{
+    width: 40%;
+    margin: 1em;
+    transform: skewY(-15deg);
+}
+
+.aboutinfo{
+    width: 50%;
+    margin: 0 3em ;
+}
+
+.aboutinfo ul{
+    margin: 1em;
+}
+.aboutinfo ul li{
+    margin: 0.4em;
+}
+.aboutinfo button{
+    background-color: red;
+    padding: 1em 2em;
+    color: white;
+    border-radius: 20px;
+    font-size: large;
+    margin-top: 2em;
 }
