@@ -130,13 +130,13 @@ nav {
 .package-description {
     border: 1px solid black;
     width: 20%;
-    padding: 2em;
     border-radius: 20px;
     box-shadow: 5px 9px 8px 1px gray;
-    margin-top: 2em;
+    padding: 2em;
+    margin-top: 2em ;
     margin-bottom: 2em;
     text-align: center;
-    transition: margin-top 1s;
+    transition: margin-top 1s,margin-bottom 1s;
 }
 
 .package-description p {
@@ -148,6 +148,8 @@ nav {
 }
 
 .package-description:hover {
+    padding-bottom: 0;
+    margin-bottom: 1em;
     margin-top: -2.5em;
     border: 1px solid red;
     transition: margin-top 1s;
