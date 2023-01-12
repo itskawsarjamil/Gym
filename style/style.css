@@ -22,6 +22,7 @@ nav {
     animation: left-to-right 3s steps(14, end) 1s, borderColor 1s step-end infinite;
     overflow: hidden;
     white-space: nowrap;
+    float: right;
 }
 
 .nav-title h1 {
@@ -223,17 +224,21 @@ nav {
 
 /*workout section start*/
 .workout-inquiry {
-    background-image: url(./images/shape/Group_33094_1.png);
+    background: url("./../images/shape/Group_33094_1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 30%;
     margin: 2em auto;
-    color: white;
     display: flex;
     border-radius: 20px;
+    width: 30%;
+}
+.winquiry{
+    display: flex; 
+    justify-content: space-between;
     padding: 3em;
-    justify-content: space-around;
+    width: 100%;    
+    color: white;
 }
 .workout-inquiry h1{
     font-size: 1.5em;
@@ -241,9 +246,15 @@ nav {
 .workout-inquiry button{
     font-size: 18px;
     padding: 0 22px;
+    display: inline-block;
+    /* background: linear-gradient(-45deg,rgb(182, 61, 61),rgb(119, 119, 197)); */
+    border: none;
+    /* border-radius: 20px; */
+    
 }
-
-
+.workout-inquiry button:hover{
+ box-shadow: 5px 10px 20px rgb(100, 52, 52);
+}
 /* service start */
 
 .services{
