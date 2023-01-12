@@ -126,6 +126,7 @@ nav {
     /* padding-top: 1em; */
     justify-content: space-evenly;
     /* margin-bottom: 3em; */
+    height: 30em;
 }
 
 .package-description {
